@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Cascadia Code", Arial, sans-serif;
+}
+
+
+/* .cascadia-code-<uniquifier> {
+  font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #00d0ff, #ccfb8f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Cascadia Code", Arial, sans-serif; */
+}
+
+.container{
+    width: 480px;
+}
+
+.form-box{
+    background: rgb(0, 204, 255);
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.form-box h2{
+    margin-bottom: 20px;
+    font-variant: small-caps;
+    font-weight:bolder;
+    font-size:xx-large;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+
+}
+
+form button{
+    width: 100%;
+    padding: 10px;
+    background: #7002f7;
+    border: none;
+    color: rgb(255, 234, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.switch{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch span{
+    color: #4e54c8;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#error{
+    color: red;
+    font-size: 13px;
+}
+
+.result-box{
+    background: #fff;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    display: none;
+}

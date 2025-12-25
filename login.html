@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chandan Login Page</title>
+    <link rel="stylesheet" href="login_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&family=Cinzel:wght@400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Sekuya&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="form-box">
+        <h2 id="title">Login System Created by Chandan</h2>
+        <form id="form">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+
+            <p id="error"></p>
+
+            <button type="submit" id="submitBtn">Login</button>
+        </form>
+        
+
+        <p class="switch">
+            Don't have account?
+            <span id="toggleBtn">Sign Up</span>
+        </p>
+    </div>
+
+    <!-- Data Display Section -->
+    <div class="result-box" id="resultBox">
+        <h3>User Data</h3>
+        <p id="showData"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
